@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Listar provedores de autenticação habilitados no Firebase
+echo "Listando provedores de autenticação habilitados..."
+gcloud firebase authentication providers list
