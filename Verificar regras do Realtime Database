@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Exportar regras do Realtime Database
+echo "Exportando regras do Realtime Database..."
+gcloud firebase database:get-rules
