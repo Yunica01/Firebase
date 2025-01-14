@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Listar membros do projeto e suas permissões
+echo "Verificando permissões do Firebase..."
+gcloud projects get-iam-policy $(gcloud config get-value project) --flatten="bindings[].members" --format="table(bindings.members,bindings.role)"
