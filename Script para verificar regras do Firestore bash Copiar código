@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Exportar regras do Firestore para revisão
+echo "Exportando regras do Firestore..."
+gcloud firestore export gs://SEU_BUCKET_DE_BACKUP/regras --async
